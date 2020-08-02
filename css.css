@@ -1,0 +1,51 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+}
+/*----whole side bar position ----*/
+.wrapper{
+    position:relative
+    display:flex;
+}
+
+/*----whole side bar position fixed and width ----*/
+.wrapper .sidebar{
+    position:fixed;
+    height:100%;
+    width:240px;
+    
+}
+/*-----Logo words margin and spacing---------*/
+.wrapper .sidebar h4{
+    margin-bottom:80px;
+    margin-top:30px;
+    letter-spacing: 3px;
+}
+/*------middle navbar setting--------*/
+ul li a{
+    padding:8px;
+    margin:5px;
+    display:block;
+    font-size:1.1rem;
+    text-decoration: none!important;
+    color:black;
+    font-weight:bold;
+}
+
+ul li a:hover{
+    background:rgb(199, 197, 197);
+    color:black;
+}
+
+/*-----bottom siderbar---------*/
+.bottom-sidebar ul{
+    margin-top:50px;
+    
+}
+
+.bottom-sidebar ul li a{
+    font-size:.9rem;
+}
